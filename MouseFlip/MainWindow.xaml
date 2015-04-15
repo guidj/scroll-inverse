@@ -1,0 +1,12 @@
+﻿<Window x:Class="ScrollInverse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mouse Flip" Height="173" Width="267">
+    <Grid>
+        <!--Button Content="Button" HorizontalAlignment="Left" Margin="94,88,0,0" VerticalAlignment="Top" Width="75"/>-->
+        <Button Content="Invert Mouse" Name="buttonToggleInversion" Background="DodgerBlue" Foreground="White" Click="buttonToggleInversion_Click" Margin="72,59,66,51" />
+        <Label Content="Inversion:" HorizontalAlignment="Left" Margin="72,28,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label Content="State" Name="StateLabel" HorizontalAlignment="Left" Margin="138,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.263,0.615" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
