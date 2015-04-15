@@ -1,4 +1,4 @@
-Inverse Scroll
+Scroll-Inverse
 ================
 
 A tool to invert the scroll direction of your mouse wheel on Windows 8, to work like OSX.
